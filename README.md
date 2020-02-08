@@ -12,3 +12,10 @@
     `python run.py`
 
 3. Go to https://view6914b2f4-3001.udacity-student-workspaces.com/
+
+4. Conten 
+Project Contains 4 Folders and 1 README file
+    - app : files fow webpage
+    - data :  files for ETL and Data Preperation
+    - mode: files for ML Pipeline
+    - preperation : iPython Notebooks Used
