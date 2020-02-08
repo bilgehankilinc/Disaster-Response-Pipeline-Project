@@ -70,7 +70,7 @@ def clean_data(df):
 
     return df
 
-
+"""
 def f_word_cloud_gen(df):
     # finally lets try to create a word cloud
     # Libraries for tokenization function
@@ -110,7 +110,7 @@ def f_word_cloud_gen(df):
     cloud = w_cloud.generate(' '.join(text))
 
     cloud.to_file('data/word_cloud.png')
-
+"""
 
 def save_data(df, database_filename):
     # 7. Save the clean dataset into an sqlite database.
@@ -130,8 +130,8 @@ def main():
         print('Cleaning data...')
         df = clean_data(df)
         
-        print('Generating wordcloud...')
-        f_word_cloud_gen(df)
+        # print('Generating wordcloud...')
+        # f_word_cloud_gen(df)
         
         print('Saving data...\n    DATABASE: {}'.format(database_filepath))
         save_data(df, database_filepath)
